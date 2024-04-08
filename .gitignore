@@ -1,3 +1,7 @@
+# Colcon
+install/
+log/
+
 # compiled targets:
 *.dylib
 *.so
