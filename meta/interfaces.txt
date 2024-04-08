@@ -36,3 +36,4 @@ std_msgs/msg/UInt8
 std_srvs/srv/Empty
 std_srvs/srv/SetBool
 std_srvs/srv/Trigger
+interfaces/msg/F64vel4

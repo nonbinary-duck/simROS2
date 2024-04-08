@@ -46,6 +46,7 @@ find_package(unique_identifier_msgs REQUIRED)
 find_package(visualization_msgs REQUIRED)
 find_package(std_srvs REQUIRED)
 find_package(example_interfaces REQUIRED)
+find_package(interfaces REQUIRED)
 find_package(image_transport)
 
 if(NOT COPPELIASIM_INCLUDE_DIR)
@@ -116,6 +117,7 @@ ament_target_dependencies(
     visualization_msgs
     std_srvs
     example_interfaces
+    interfaces
 )
 if(image_transport_FOUND)
     ament_target_dependencies(
